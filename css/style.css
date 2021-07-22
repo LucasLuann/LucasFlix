@@ -15,6 +15,7 @@
 body{
     background: var(--preto);
     font-family: 'Times New Roman', Times, serif;
+    color: #fff;
 }
 
 
@@ -43,3 +44,12 @@ header nav a:hover{
 }
 
 /* FIM TOPO */
+
+/* FILME PRINCIPAL */
+
+.filme-principal{
+    font-size: 16px;
+    background: url(/img/house-bg.jpg);
+    height: 400px;
+    background-size: cover;
+}
