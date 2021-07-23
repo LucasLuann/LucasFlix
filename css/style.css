@@ -49,7 +49,19 @@ header nav a:hover{
 
 .filme-principal{
     font-size: 16px;
-    background: url(/img/house-bg.jpg);
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/img/house-bg.jpg);
     height: 400px;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .sinopse {
+    margin-bottom: 40px;
+}
+
+.titulo {
+    font-size: 40px;
 }
